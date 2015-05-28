@@ -14,6 +14,10 @@
 		1875801B1B17432400DC098A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1875801A1B17432400DC098A /* Images.xcassets */; };
 		1875801E1B17432400DC098A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1875801C1B17432400DC098A /* LaunchScreen.xib */; };
 		1875802A1B17432500DC098A /* AddressChoicePickViewDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187580291B17432500DC098A /* AddressChoicePickViewDemoTests.m */; };
+		187580361B1743D000DC098A /* AddressChoicePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 187580341B1743D000DC098A /* AddressChoicePickerView.m */; };
+		187580371B1743D000DC098A /* AddressChoicePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187580351B1743D000DC098A /* AddressChoicePickerView.xib */; };
+		1875803A1B1743E100DC098A /* AreaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 187580391B1743E100DC098A /* AreaObject.m */; };
+		1875803C1B17453200DC098A /* AreaPlist.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1875803B1B17453200DC098A /* AreaPlist.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,12 @@
 		187580231B17432500DC098A /* AddressChoicePickViewDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddressChoicePickViewDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187580281B17432500DC098A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187580291B17432500DC098A /* AddressChoicePickViewDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AddressChoicePickViewDemoTests.m; sourceTree = "<group>"; };
+		187580331B1743D000DC098A /* AddressChoicePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressChoicePickerView.h; sourceTree = "<group>"; };
+		187580341B1743D000DC098A /* AddressChoicePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressChoicePickerView.m; sourceTree = "<group>"; };
+		187580351B1743D000DC098A /* AddressChoicePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddressChoicePickerView.xib; sourceTree = "<group>"; };
+		187580381B1743E100DC098A /* AreaObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AreaObject.h; sourceTree = "<group>"; };
+		187580391B1743E100DC098A /* AreaObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AreaObject.m; sourceTree = "<group>"; };
+		1875803B1B17453200DC098A /* AreaPlist.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AreaPlist.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +91,11 @@
 		1875800C1B17432400DC098A /* AddressChoicePickViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				187580381B1743E100DC098A /* AreaObject.h */,
+				187580391B1743E100DC098A /* AreaObject.m */,
+				187580331B1743D000DC098A /* AddressChoicePickerView.h */,
+				187580341B1743D000DC098A /* AddressChoicePickerView.m */,
+				187580351B1743D000DC098A /* AddressChoicePickerView.xib */,
 				187580111B17432400DC098A /* AppDelegate.h */,
 				187580121B17432400DC098A /* AppDelegate.m */,
 				187580141B17432400DC098A /* ViewController.h */,
@@ -88,6 +103,7 @@
 				187580171B17432400DC098A /* Main.storyboard */,
 				1875801A1B17432400DC098A /* Images.xcassets */,
 				1875801C1B17432400DC098A /* LaunchScreen.xib */,
+				1875803B1B17453200DC098A /* AreaPlist.plist */,
 				1875800D1B17432400DC098A /* Supporting Files */,
 			);
 			path = AddressChoicePickViewDemo;
@@ -201,6 +217,8 @@
 			files = (
 				187580191B17432400DC098A /* Main.storyboard in Resources */,
 				1875801E1B17432400DC098A /* LaunchScreen.xib in Resources */,
+				1875803C1B17453200DC098A /* AreaPlist.plist in Resources */,
+				187580371B1743D000DC098A /* AddressChoicePickerView.xib in Resources */,
 				1875801B1B17432400DC098A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -220,7 +238,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				187580161B17432400DC098A /* ViewController.m in Sources */,
+				1875803A1B1743E100DC098A /* AreaObject.m in Sources */,
 				187580131B17432400DC098A /* AppDelegate.m in Sources */,
+				187580361B1743D000DC098A /* AddressChoicePickerView.m in Sources */,
 				187580101B17432400DC098A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
